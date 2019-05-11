@@ -1,0 +1,2729 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_9658b772c19d4beb9040a3e8428ef0a5 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_9658b772c19d4beb9040a3e8428ef0a5" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_9658b772c19d4beb9040a3e8428ef0a5 = L.map(
+        'map_9658b772c19d4beb9040a3e8428ef0a5', {
+        center: [41.382894, 2.1774322],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_ed3ec9cd21684d5794fb03e208f2da83 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+    
+            var circle_marker_1b6313b0bc6a4699912e28fd722dceda = L.circleMarker(
+                [41.38081, 2.171593],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_6d96977d83d64f0599c00bb2f3898e13 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a44b36add3504151b69897ffc288c79c = $(`<div id="html_a44b36add3504151b69897ffc288c79c" style="width: 100.0%; height: 100.0%;">El Raval Cluster 1</div>`)[0];
+                popup_6d96977d83d64f0599c00bb2f3898e13.setContent(html_a44b36add3504151b69897ffc288c79c);
+            
+
+            circle_marker_1b6313b0bc6a4699912e28fd722dceda.bindPopup(popup_6d96977d83d64f0599c00bb2f3898e13)
+            ;
+
+            
+        
+    
+            var circle_marker_8748e848e25840ba8f5e4d7484729874 = L.circleMarker(
+                [41.38294, 2.178549],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_1032842f42494b379a307e998fc47648 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4832dac69216410680ee42c5db2e5fa0 = $(`<div id="html_4832dac69216410680ee42c5db2e5fa0" style="width: 100.0%; height: 100.0%;">El Barri Gotic Cluster 1</div>`)[0];
+                popup_1032842f42494b379a307e998fc47648.setContent(html_4832dac69216410680ee42c5db2e5fa0);
+            
+
+            circle_marker_8748e848e25840ba8f5e4d7484729874.bindPopup(popup_1032842f42494b379a307e998fc47648)
+            ;
+
+            
+        
+    
+            var circle_marker_af1198dc85f64d0397f20b027ab6fb46 = L.circleMarker(
+                [41.37905, 2.191261],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_178efb7468af4fdba61d4b656bc1d5ca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f5fd6210badd41bca050755cf53dd33f = $(`<div id="html_f5fd6210badd41bca050755cf53dd33f" style="width: 100.0%; height: 100.0%;">La Barceloneta Cluster 1</div>`)[0];
+                popup_178efb7468af4fdba61d4b656bc1d5ca.setContent(html_f5fd6210badd41bca050755cf53dd33f);
+            
+
+            circle_marker_af1198dc85f64d0397f20b027ab6fb46.bindPopup(popup_178efb7468af4fdba61d4b656bc1d5ca)
+            ;
+
+            
+        
+    
+            var circle_marker_16a3405194264d818b45db2a030d86ca = L.circleMarker(
+                [41.38864, 2.184539],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_18fdc8b3e1a34a549d0a8e04d2ad432c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_33e4c74d3cbf4a9e852356872f06ee34 = $(`<div id="html_33e4c74d3cbf4a9e852356872f06ee34" style="width: 100.0%; height: 100.0%;">Sant Pere, Santa Caterina I La Ribera Cluster 1</div>`)[0];
+                popup_18fdc8b3e1a34a549d0a8e04d2ad432c.setContent(html_33e4c74d3cbf4a9e852356872f06ee34);
+            
+
+            circle_marker_16a3405194264d818b45db2a030d86ca.bindPopup(popup_18fdc8b3e1a34a549d0a8e04d2ad432c)
+            ;
+
+            
+        
+    
+            var circle_marker_2071aabc7cb54208822639209b53f11f = L.circleMarker(
+                [41.39926, 2.182589],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_f054f00cb534441491bae8a9d0441640 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f301ad9f3d0f4ad1a16cede48c5b2e36 = $(`<div id="html_f301ad9f3d0f4ad1a16cede48c5b2e36" style="width: 100.0%; height: 100.0%;">El Fort Pienc Cluster 1</div>`)[0];
+                popup_f054f00cb534441491bae8a9d0441640.setContent(html_f301ad9f3d0f4ad1a16cede48c5b2e36);
+            
+
+            circle_marker_2071aabc7cb54208822639209b53f11f.bindPopup(popup_f054f00cb534441491bae8a9d0441640)
+            ;
+
+            
+        
+    
+            var circle_marker_445703d645454acc82ea5903ce0d2784 = L.circleMarker(
+                [41.40729, 2.177686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_b40adca5632e45be9dce1b403fe60df5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_47bbf2f92e774ab898e0f5dbce53bce0 = $(`<div id="html_47bbf2f92e774ab898e0f5dbce53bce0" style="width: 100.0%; height: 100.0%;">La Sagrada Familia Cluster 1</div>`)[0];
+                popup_b40adca5632e45be9dce1b403fe60df5.setContent(html_47bbf2f92e774ab898e0f5dbce53bce0);
+            
+
+            circle_marker_445703d645454acc82ea5903ce0d2784.bindPopup(popup_b40adca5632e45be9dce1b403fe60df5)
+            ;
+
+            
+        
+    
+            var circle_marker_2155b9dca3124a5f8ebc234c6b3e2f30 = L.circleMarker(
+                [41.39573, 2.1693],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_880323e8389f426abe519030b756bc3d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1540f2a877f142b4bd238f48ee23cd8e = $(`<div id="html_1540f2a877f142b4bd238f48ee23cd8e" style="width: 100.0%; height: 100.0%;">La Dreta De L&#39;Eixample Cluster 1</div>`)[0];
+                popup_880323e8389f426abe519030b756bc3d.setContent(html_1540f2a877f142b4bd238f48ee23cd8e);
+            
+
+            circle_marker_2155b9dca3124a5f8ebc234c6b3e2f30.bindPopup(popup_880323e8389f426abe519030b756bc3d)
+            ;
+
+            
+        
+    
+            var circle_marker_c58230a65fb249b3a288456b5453a544 = L.circleMarker(
+                [41.3912, 2.156252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_abb581dabc5143349fb3f817d8c46613 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2eaa98499b0c4c2cb7ac5dbd81cd4d69 = $(`<div id="html_2eaa98499b0c4c2cb7ac5dbd81cd4d69" style="width: 100.0%; height: 100.0%;">L&#39;Antiga Esquerra De L&#39;Eixample Cluster 1</div>`)[0];
+                popup_abb581dabc5143349fb3f817d8c46613.setContent(html_2eaa98499b0c4c2cb7ac5dbd81cd4d69);
+            
+
+            circle_marker_c58230a65fb249b3a288456b5453a544.bindPopup(popup_abb581dabc5143349fb3f817d8c46613)
+            ;
+
+            
+        
+    
+            var circle_marker_139c7bfe28fb4b8299e1184f41454864 = L.circleMarker(
+                [41.3849, 2.150079],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_10dcdae57bad435eb38c325ebf6075d6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f2462c4af774b33903fb1c975edc871 = $(`<div id="html_0f2462c4af774b33903fb1c975edc871" style="width: 100.0%; height: 100.0%;">La Nova Esquerra De L&#39;Eixample Cluster 1</div>`)[0];
+                popup_10dcdae57bad435eb38c325ebf6075d6.setContent(html_0f2462c4af774b33903fb1c975edc871);
+            
+
+            circle_marker_139c7bfe28fb4b8299e1184f41454864.bindPopup(popup_10dcdae57bad435eb38c325ebf6075d6)
+            ;
+
+            
+        
+    
+            var circle_marker_e7c9c7badafc4ae9a7b1313f5632eb2c = L.circleMarker(
+                [41.38038, 2.160452],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_e542881461c74f9188efa72a4db877aa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2d10d3c2f508495c92a65451974c053a = $(`<div id="html_2d10d3c2f508495c92a65451974c053a" style="width: 100.0%; height: 100.0%;">Sant Antoni Cluster 1</div>`)[0];
+                popup_e542881461c74f9188efa72a4db877aa.setContent(html_2d10d3c2f508495c92a65451974c053a);
+            
+
+            circle_marker_e7c9c7badafc4ae9a7b1313f5632eb2c.bindPopup(popup_e542881461c74f9188efa72a4db877aa)
+            ;
+
+            
+        
+    
+            var circle_marker_7cb92e39c0f2420c8bea49a09128fc0b = L.circleMarker(
+                [41.36726, 2.15935],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_d01f14cc8a7a48a2aee6bfe23965c91e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ad1b5c01735c4afcb995dca257fb7b4b = $(`<div id="html_ad1b5c01735c4afcb995dca257fb7b4b" style="width: 100.0%; height: 100.0%;">El Poble Sec Cluster 2</div>`)[0];
+                popup_d01f14cc8a7a48a2aee6bfe23965c91e.setContent(html_ad1b5c01735c4afcb995dca257fb7b4b);
+            
+
+            circle_marker_7cb92e39c0f2420c8bea49a09128fc0b.bindPopup(popup_d01f14cc8a7a48a2aee6bfe23965c91e)
+            ;
+
+            
+        
+    
+            var circle_marker_ace83c905b514b44ae6476736741df36 = L.circleMarker(
+                [41.36181, 2.140942],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_6c21c81f24db491892d1cf61a57c759d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_13376c0fad2f4f2db9c45321d108254e = $(`<div id="html_13376c0fad2f4f2db9c45321d108254e" style="width: 100.0%; height: 100.0%;">La Marina De Port Cluster 1</div>`)[0];
+                popup_6c21c81f24db491892d1cf61a57c759d.setContent(html_13376c0fad2f4f2db9c45321d108254e);
+            
+
+            circle_marker_ace83c905b514b44ae6476736741df36.bindPopup(popup_6c21c81f24db491892d1cf61a57c759d)
+            ;
+
+            
+        
+    
+            var circle_marker_4e9d9d9469c342e2a11329691a482b72 = L.circleMarker(
+                [41.37159, 2.145947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_b51e8ed63ba94def820712f3ba108eb3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_392041563ff34d10ab2b1a51a7bf688e = $(`<div id="html_392041563ff34d10ab2b1a51a7bf688e" style="width: 100.0%; height: 100.0%;">La Font De La Guatlla Cluster 1</div>`)[0];
+                popup_b51e8ed63ba94def820712f3ba108eb3.setContent(html_392041563ff34d10ab2b1a51a7bf688e);
+            
+
+            circle_marker_4e9d9d9469c342e2a11329691a482b72.bindPopup(popup_b51e8ed63ba94def820712f3ba108eb3)
+            ;
+
+            
+        
+    
+            var circle_marker_f8bfe37fae9e4c5e9902267317cf5871 = L.circleMarker(
+                [41.37716, 2.145344],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_afaf150202c548f7a1436b91fa6c64cf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_14749c2133c94a4c8274673e61a3dc35 = $(`<div id="html_14749c2133c94a4c8274673e61a3dc35" style="width: 100.0%; height: 100.0%;">Hostafrancs Cluster 1</div>`)[0];
+                popup_afaf150202c548f7a1436b91fa6c64cf.setContent(html_14749c2133c94a4c8274673e61a3dc35);
+            
+
+            circle_marker_f8bfe37fae9e4c5e9902267317cf5871.bindPopup(popup_afaf150202c548f7a1436b91fa6c64cf)
+            ;
+
+            
+        
+    
+            var circle_marker_3af4dba5f620482c8d66d4d0238b3a0f = L.circleMarker(
+                [41.37088, 2.137511],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_0a7d619d4cce4f7890c39dd0729498a9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f5aae9b8c18b4b3c9587ed260f75483d = $(`<div id="html_f5aae9b8c18b4b3c9587ed260f75483d" style="width: 100.0%; height: 100.0%;">La Bordeta Cluster 1</div>`)[0];
+                popup_0a7d619d4cce4f7890c39dd0729498a9.setContent(html_f5aae9b8c18b4b3c9587ed260f75483d);
+            
+
+            circle_marker_3af4dba5f620482c8d66d4d0238b3a0f.bindPopup(popup_0a7d619d4cce4f7890c39dd0729498a9)
+            ;
+
+            
+        
+    
+            var circle_marker_d95cf020adf746bb91a275f991475ba9 = L.circleMarker(
+                [41.37652, 2.128831],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_99e3068e6f5d4518b2c7e6814f19bff6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a816796d4a9e459b99e7ee23f8eac0b2 = $(`<div id="html_a816796d4a9e459b99e7ee23f8eac0b2" style="width: 100.0%; height: 100.0%;">Sants - Badal Cluster 1</div>`)[0];
+                popup_99e3068e6f5d4518b2c7e6814f19bff6.setContent(html_a816796d4a9e459b99e7ee23f8eac0b2);
+            
+
+            circle_marker_d95cf020adf746bb91a275f991475ba9.bindPopup(popup_99e3068e6f5d4518b2c7e6814f19bff6)
+            ;
+
+            
+        
+    
+            var circle_marker_23ccf538c11145e192f805368dd1ab7c = L.circleMarker(
+                [41.37931, 2.137449],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_98c5aeffbc3348eb9dc741fd00ba32ca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec15ead1b12e4a67a609a6f77f5b6df7 = $(`<div id="html_ec15ead1b12e4a67a609a6f77f5b6df7" style="width: 100.0%; height: 100.0%;">Sants Cluster 1</div>`)[0];
+                popup_98c5aeffbc3348eb9dc741fd00ba32ca.setContent(html_ec15ead1b12e4a67a609a6f77f5b6df7);
+            
+
+            circle_marker_23ccf538c11145e192f805368dd1ab7c.bindPopup(popup_98c5aeffbc3348eb9dc741fd00ba32ca)
+            ;
+
+            
+        
+    
+            var circle_marker_e9fc90241dd4470384194392aa7ecf5c = L.circleMarker(
+                [41.38878, 2.1358],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_5cba1c83d11a42e7ba267bd08a6d3c20 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f1c29ef046d40dcb2f3ecc6e92a4f37 = $(`<div id="html_0f1c29ef046d40dcb2f3ecc6e92a4f37" style="width: 100.0%; height: 100.0%;">Les Corts Cluster 1</div>`)[0];
+                popup_5cba1c83d11a42e7ba267bd08a6d3c20.setContent(html_0f1c29ef046d40dcb2f3ecc6e92a4f37);
+            
+
+            circle_marker_e9fc90241dd4470384194392aa7ecf5c.bindPopup(popup_5cba1c83d11a42e7ba267bd08a6d3c20)
+            ;
+
+            
+        
+    
+            var circle_marker_4236aab9e84944c5bbab569bdb0ac815 = L.circleMarker(
+                [41.38306, 2.118517],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_cc4799625c864d5592d91c0f1c040ea4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2c8b1023b4754948857e918ede49574e = $(`<div id="html_2c8b1023b4754948857e918ede49574e" style="width: 100.0%; height: 100.0%;">La Maternitat I Sant Ramon Cluster 2</div>`)[0];
+                popup_cc4799625c864d5592d91c0f1c040ea4.setContent(html_2c8b1023b4754948857e918ede49574e);
+            
+
+            circle_marker_4236aab9e84944c5bbab569bdb0ac815.bindPopup(popup_cc4799625c864d5592d91c0f1c040ea4)
+            ;
+
+            
+        
+    
+            var circle_marker_79aeb7e95d714fe795a3996def40b4ae = L.circleMarker(
+                [41.39288, 2.111258],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_549a3de3ef5443e5ab5aa7c778db9a44 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_294ea6d868ef4f5c8f7c7d3e4a37e8bb = $(`<div id="html_294ea6d868ef4f5c8f7c7d3e4a37e8bb" style="width: 100.0%; height: 100.0%;">Pedralbes Cluster 2</div>`)[0];
+                popup_549a3de3ef5443e5ab5aa7c778db9a44.setContent(html_294ea6d868ef4f5c8f7c7d3e4a37e8bb);
+            
+
+            circle_marker_79aeb7e95d714fe795a3996def40b4ae.bindPopup(popup_549a3de3ef5443e5ab5aa7c778db9a44)
+            ;
+
+            
+        
+    
+            var circle_marker_864cd14a5dcc49c8afe4e6193f44f555 = L.circleMarker(
+                [41.42151, 2.090193],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_495399e439f34473bbb1498f51868736 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_108fb2e2e2d5465aaf4a85acce0cfa4a = $(`<div id="html_108fb2e2e2d5465aaf4a85acce0cfa4a" style="width: 100.0%; height: 100.0%;">Vallvidrera, El Tibidabo I Les Planes Cluster 2</div>`)[0];
+                popup_495399e439f34473bbb1498f51868736.setContent(html_108fb2e2e2d5465aaf4a85acce0cfa4a);
+            
+
+            circle_marker_864cd14a5dcc49c8afe4e6193f44f555.bindPopup(popup_495399e439f34473bbb1498f51868736)
+            ;
+
+            
+        
+    
+            var circle_marker_de70e6d9633544c69244162e20c9d95e = L.circleMarker(
+                [41.4045, 2.117285],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_1858a92a53584d899b1a063fb6c0d9c8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1fa2a3f47182475785d77b1b9e5aecd2 = $(`<div id="html_1fa2a3f47182475785d77b1b9e5aecd2" style="width: 100.0%; height: 100.0%;">Sarria Cluster 2</div>`)[0];
+                popup_1858a92a53584d899b1a063fb6c0d9c8.setContent(html_1fa2a3f47182475785d77b1b9e5aecd2);
+            
+
+            circle_marker_de70e6d9633544c69244162e20c9d95e.bindPopup(popup_1858a92a53584d899b1a063fb6c0d9c8)
+            ;
+
+            
+        
+    
+            var circle_marker_7c18a48257734680a9edba889cb8cd3a = L.circleMarker(
+                [41.39985, 2.13095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_c99d505a488b4c7aba75e593739c5e65 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f55e5b5a03314928860c31b08a89cdfb = $(`<div id="html_f55e5b5a03314928860c31b08a89cdfb" style="width: 100.0%; height: 100.0%;">Les Tres Torres Cluster 1</div>`)[0];
+                popup_c99d505a488b4c7aba75e593739c5e65.setContent(html_f55e5b5a03314928860c31b08a89cdfb);
+            
+
+            circle_marker_7c18a48257734680a9edba889cb8cd3a.bindPopup(popup_c99d505a488b4c7aba75e593739c5e65)
+            ;
+
+            
+        
+    
+            var circle_marker_32d2bda4f08849f48c367a1477753a00 = L.circleMarker(
+                [41.41164, 2.131285],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_19145aea5b604a85bb71d394e5373ce9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_83da4846c036449a97bf620d54b2ee60 = $(`<div id="html_83da4846c036449a97bf620d54b2ee60" style="width: 100.0%; height: 100.0%;">Sant Gervasi - La Bonanova Cluster 2</div>`)[0];
+                popup_19145aea5b604a85bb71d394e5373ce9.setContent(html_83da4846c036449a97bf620d54b2ee60);
+            
+
+            circle_marker_32d2bda4f08849f48c367a1477753a00.bindPopup(popup_19145aea5b604a85bb71d394e5373ce9)
+            ;
+
+            
+        
+    
+            var circle_marker_abfab8a47c1341f3bb9e26a1d6ea552c = L.circleMarker(
+                [41.39931, 2.144096],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_ab95357f8b4643cda056b79b33008e3f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_110edad54e8b44288c029bb691c3d5fe = $(`<div id="html_110edad54e8b44288c029bb691c3d5fe" style="width: 100.0%; height: 100.0%;">Sant Gervasi - Galvany Cluster 1</div>`)[0];
+                popup_ab95357f8b4643cda056b79b33008e3f.setContent(html_110edad54e8b44288c029bb691c3d5fe);
+            
+
+            circle_marker_abfab8a47c1341f3bb9e26a1d6ea552c.bindPopup(popup_ab95357f8b4643cda056b79b33008e3f)
+            ;
+
+            
+        
+    
+            var circle_marker_1595deba6b7a40499fd68545f0f62dab = L.circleMarker(
+                [41.40874, 2.145006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_c3a05e6ecad64ec0a4b61aef01f6ebfb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bf9dde1aca074a9b9e70aec2d0b8c818 = $(`<div id="html_bf9dde1aca074a9b9e70aec2d0b8c818" style="width: 100.0%; height: 100.0%;">El Putxet I El Farro Cluster 1</div>`)[0];
+                popup_c3a05e6ecad64ec0a4b61aef01f6ebfb.setContent(html_bf9dde1aca074a9b9e70aec2d0b8c818);
+            
+
+            circle_marker_1595deba6b7a40499fd68545f0f62dab.bindPopup(popup_c3a05e6ecad64ec0a4b61aef01f6ebfb)
+            ;
+
+            
+        
+    
+            var circle_marker_92e75afb5ec54afea0c2cf1bfbefcca1 = L.circleMarker(
+                [41.41818, 2.142161],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_b3022538dd114ecfa6c66d665164cfba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f53580b0da5644d1b4efe2577e3e73b8 = $(`<div id="html_f53580b0da5644d1b4efe2577e3e73b8" style="width: 100.0%; height: 100.0%;">Vallcarca I Els Penitents Cluster 1</div>`)[0];
+                popup_b3022538dd114ecfa6c66d665164cfba.setContent(html_f53580b0da5644d1b4efe2577e3e73b8);
+            
+
+            circle_marker_92e75afb5ec54afea0c2cf1bfbefcca1.bindPopup(popup_b3022538dd114ecfa6c66d665164cfba)
+            ;
+
+            
+        
+    
+            var circle_marker_90ff3ea34c47473ebc149dac6f44c16d = L.circleMarker(
+                [41.42005, 2.148891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_3bebb2c00d6f4055a82233407d05e164 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6d2d20f2be314d2491f92607fee7f925 = $(`<div id="html_6d2d20f2be314d2491f92607fee7f925" style="width: 100.0%; height: 100.0%;">El Coll Cluster 2</div>`)[0];
+                popup_3bebb2c00d6f4055a82233407d05e164.setContent(html_6d2d20f2be314d2491f92607fee7f925);
+            
+
+            circle_marker_90ff3ea34c47473ebc149dac6f44c16d.bindPopup(popup_3bebb2c00d6f4055a82233407d05e164)
+            ;
+
+            
+        
+    
+            var circle_marker_9fd8a0eefe58416dacb7c0bef1c8db1f = L.circleMarker(
+                [41.41425, 2.155457],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_c70f500d5c394ac4b4eae0eb84b066bf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ac3e3471f0ad4eab9ac02050de642fa9 = $(`<div id="html_ac3e3471f0ad4eab9ac02050de642fa9" style="width: 100.0%; height: 100.0%;">La Salut Cluster 1</div>`)[0];
+                popup_c70f500d5c394ac4b4eae0eb84b066bf.setContent(html_ac3e3471f0ad4eab9ac02050de642fa9);
+            
+
+            circle_marker_9fd8a0eefe58416dacb7c0bef1c8db1f.bindPopup(popup_c70f500d5c394ac4b4eae0eb84b066bf)
+            ;
+
+            
+        
+    
+            var circle_marker_99352e1215e742de9d8f17f8f02ccb0a = L.circleMarker(
+                [41.40496, 2.157953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_214e15f36ec447e6a8104494784847f6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f7ea9967ba734cd3b64b793b66106fb1 = $(`<div id="html_f7ea9967ba734cd3b64b793b66106fb1" style="width: 100.0%; height: 100.0%;">La Vila De Gracia Cluster 1</div>`)[0];
+                popup_214e15f36ec447e6a8104494784847f6.setContent(html_f7ea9967ba734cd3b64b793b66106fb1);
+            
+
+            circle_marker_99352e1215e742de9d8f17f8f02ccb0a.bindPopup(popup_214e15f36ec447e6a8104494784847f6)
+            ;
+
+            
+        
+    
+            var circle_marker_c7936fceeeb04d54afe509899bd18706 = L.circleMarker(
+                [41.40815, 2.16611],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_d3ede9db0e22471ea74c35171fc63c6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af63731ddb804fc6a7dc6303c76db261 = $(`<div id="html_af63731ddb804fc6a7dc6303c76db261" style="width: 100.0%; height: 100.0%;">El Camp D&#39;En Grassot I Gracia Nova Cluster 1</div>`)[0];
+                popup_d3ede9db0e22471ea74c35171fc63c6f.setContent(html_af63731ddb804fc6a7dc6303c76db261);
+            
+
+            circle_marker_c7936fceeeb04d54afe509899bd18706.bindPopup(popup_d3ede9db0e22471ea74c35171fc63c6f)
+            ;
+
+            
+        
+    
+            var circle_marker_bc2c5f0f7ab3490e9e17b9ecc17bf750 = L.circleMarker(
+                [41.41356, 2.168928],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_7a89055a398e48e4b0b5771772d48f1a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4993cf3d90644bc9bf52a1440477fd6c = $(`<div id="html_4993cf3d90644bc9bf52a1440477fd6c" style="width: 100.0%; height: 100.0%;">El Baix Guinardo Cluster 2</div>`)[0];
+                popup_7a89055a398e48e4b0b5771772d48f1a.setContent(html_4993cf3d90644bc9bf52a1440477fd6c);
+            
+
+            circle_marker_bc2c5f0f7ab3490e9e17b9ecc17bf750.bindPopup(popup_7a89055a398e48e4b0b5771772d48f1a)
+            ;
+
+            
+        
+    
+            var circle_marker_f361b85f64f24a5ab1320b8cc0b0cd56 = L.circleMarker(
+                [41.41859, 2.163502],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_dda839ab8fb14881af2e26646677baf8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_617902ac3525467fb38596ad6d492ba4 = $(`<div id="html_617902ac3525467fb38596ad6d492ba4" style="width: 100.0%; height: 100.0%;">Can Baro Cluster 2</div>`)[0];
+                popup_dda839ab8fb14881af2e26646677baf8.setContent(html_617902ac3525467fb38596ad6d492ba4);
+            
+
+            circle_marker_f361b85f64f24a5ab1320b8cc0b0cd56.bindPopup(popup_dda839ab8fb14881af2e26646677baf8)
+            ;
+
+            
+        
+    
+            var circle_marker_10a29ee08abb429299adfd928641b805 = L.circleMarker(
+                [41.42066, 2.174727],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_526965cdc5894e56a47e107683f13a32 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_33e38ac38fee462698033bbb7b950810 = $(`<div id="html_33e38ac38fee462698033bbb7b950810" style="width: 100.0%; height: 100.0%;">El Guinardo Cluster 1</div>`)[0];
+                popup_526965cdc5894e56a47e107683f13a32.setContent(html_33e38ac38fee462698033bbb7b950810);
+            
+
+            circle_marker_10a29ee08abb429299adfd928641b805.bindPopup(popup_526965cdc5894e56a47e107683f13a32)
+            ;
+
+            
+        
+    
+            var circle_marker_6bb703fb485c477482c3182509d1e8a2 = L.circleMarker(
+                [41.42642, 2.166349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_bc662d5c93474eb89c0dec59b899808a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a3f2442dd5f84642b2aac57f0240d964 = $(`<div id="html_a3f2442dd5f84642b2aac57f0240d964" style="width: 100.0%; height: 100.0%;">La Font D&#39;En Fargues Cluster 1</div>`)[0];
+                popup_bc662d5c93474eb89c0dec59b899808a.setContent(html_a3f2442dd5f84642b2aac57f0240d964);
+            
+
+            circle_marker_6bb703fb485c477482c3182509d1e8a2.bindPopup(popup_bc662d5c93474eb89c0dec59b899808a)
+            ;
+
+            
+        
+    
+            var circle_marker_25143e866c214bf4adddac89845a325f = L.circleMarker(
+                [41.42359, 2.157059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_3aa50d7eedfb4f32a00940a65eaecae1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_22491d4118464c79baa89f9547ce320b = $(`<div id="html_22491d4118464c79baa89f9547ce320b" style="width: 100.0%; height: 100.0%;">El Carmel Cluster 2</div>`)[0];
+                popup_3aa50d7eedfb4f32a00940a65eaecae1.setContent(html_22491d4118464c79baa89f9547ce320b);
+            
+
+            circle_marker_25143e866c214bf4adddac89845a325f.bindPopup(popup_3aa50d7eedfb4f32a00940a65eaecae1)
+            ;
+
+            
+        
+    
+            var circle_marker_058481efd3364b7daefdb73352f213ea = L.circleMarker(
+                [41.42489, 2.147626],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_842702952cd640069dbb1f3f2339655b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c63f343f14904758b0474b889c9e8efe = $(`<div id="html_c63f343f14904758b0474b889c9e8efe" style="width: 100.0%; height: 100.0%;">La Teixonera Cluster 2</div>`)[0];
+                popup_842702952cd640069dbb1f3f2339655b.setContent(html_c63f343f14904758b0474b889c9e8efe);
+            
+
+            circle_marker_058481efd3364b7daefdb73352f213ea.bindPopup(popup_842702952cd640069dbb1f3f2339655b)
+            ;
+
+            
+        
+    
+            var circle_marker_7dad5ce8f49e4573be0e86a9a9f8e9d3 = L.circleMarker(
+                [41.42722, 2.131278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_a571c063d048439684e5ece21631d1b1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_727c6751b0b64b28b0dcc3487f0f764e = $(`<div id="html_727c6751b0b64b28b0dcc3487f0f764e" style="width: 100.0%; height: 100.0%;">Sant Genis Dels Agudells Cluster 3</div>`)[0];
+                popup_a571c063d048439684e5ece21631d1b1.setContent(html_727c6751b0b64b28b0dcc3487f0f764e);
+            
+
+            circle_marker_7dad5ce8f49e4573be0e86a9a9f8e9d3.bindPopup(popup_a571c063d048439684e5ece21631d1b1)
+            ;
+
+            
+        
+    
+            var circle_marker_459a66eaa96343be8175b2323a90e632 = L.circleMarker(
+                [41.4371, 2.138897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_99760ca5beb34e809794c081f471960b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0b489f33f5c4a48b5cf5fd8b8ab850c = $(`<div id="html_e0b489f33f5c4a48b5cf5fd8b8ab850c" style="width: 100.0%; height: 100.0%;">Montbau Cluster 2</div>`)[0];
+                popup_99760ca5beb34e809794c081f471960b.setContent(html_e0b489f33f5c4a48b5cf5fd8b8ab850c);
+            
+
+            circle_marker_459a66eaa96343be8175b2323a90e632.bindPopup(popup_99760ca5beb34e809794c081f471960b)
+            ;
+
+            
+        
+    
+            var circle_marker_2592ea87e3594deb8f93a8184b4815fa = L.circleMarker(
+                [41.43219, 2.14938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_5a31c630331945f8a914b8ac9d5629f5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ce6b3bef8d24f34b9bf4aa3df942f34 = $(`<div id="html_6ce6b3bef8d24f34b9bf4aa3df942f34" style="width: 100.0%; height: 100.0%;">La Vall D&#39;Hebron Cluster 2</div>`)[0];
+                popup_5a31c630331945f8a914b8ac9d5629f5.setContent(html_6ce6b3bef8d24f34b9bf4aa3df942f34);
+            
+
+            circle_marker_2592ea87e3594deb8f93a8184b4815fa.bindPopup(popup_5a31c630331945f8a914b8ac9d5629f5)
+            ;
+
+            
+        
+    
+            var circle_marker_d76948d28ed5411cabca732d9c24f4a2 = L.circleMarker(
+                [41.4307, 2.154164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_9b531ba1100e473d9c27536afa86168a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1614d6632b4548c49090a04c985a3b04 = $(`<div id="html_1614d6632b4548c49090a04c985a3b04" style="width: 100.0%; height: 100.0%;">La Clota Cluster 2</div>`)[0];
+                popup_9b531ba1100e473d9c27536afa86168a.setContent(html_1614d6632b4548c49090a04c985a3b04);
+            
+
+            circle_marker_d76948d28ed5411cabca732d9c24f4a2.bindPopup(popup_9b531ba1100e473d9c27536afa86168a)
+            ;
+
+            
+        
+    
+            var circle_marker_f4ae6f36e0c24e779540b00ff5b6d0aa = L.circleMarker(
+                [41.44173, 2.153037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_93069f675a3140b6a78ea45cd4b288a4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bf312694425f4b97a8129e7c545280bf = $(`<div id="html_bf312694425f4b97a8129e7c545280bf" style="width: 100.0%; height: 100.0%;">Horta Cluster 2</div>`)[0];
+                popup_93069f675a3140b6a78ea45cd4b288a4.setContent(html_bf312694425f4b97a8129e7c545280bf);
+            
+
+            circle_marker_f4ae6f36e0c24e779540b00ff5b6d0aa.bindPopup(popup_93069f675a3140b6a78ea45cd4b288a4)
+            ;
+
+            
+        
+    
+            var circle_marker_056601adfb6742b989b66e8634cde361 = L.circleMarker(
+                [41.43043, 2.175187],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_bac8e13f204a4de2a9d07323766013ce = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1ae6658f780743cc97a64c849a20392f = $(`<div id="html_1ae6658f780743cc97a64c849a20392f" style="width: 100.0%; height: 100.0%;">Vilapicina I La Torre Llobeta Cluster 2</div>`)[0];
+                popup_bac8e13f204a4de2a9d07323766013ce.setContent(html_1ae6658f780743cc97a64c849a20392f);
+            
+
+            circle_marker_056601adfb6742b989b66e8634cde361.bindPopup(popup_bac8e13f204a4de2a9d07323766013ce)
+            ;
+
+            
+        
+    
+            var circle_marker_05fb50f8afc145dfadec419138a7546d = L.circleMarker(
+                [41.43672, 2.179915],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_bc660965da534657b6b2707275fc50e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4d269157aef0458d8a76f23ecb778cbc = $(`<div id="html_4d269157aef0458d8a76f23ecb778cbc" style="width: 100.0%; height: 100.0%;">Porta Cluster 2</div>`)[0];
+                popup_bc660965da534657b6b2707275fc50e3.setContent(html_4d269157aef0458d8a76f23ecb778cbc);
+            
+
+            circle_marker_05fb50f8afc145dfadec419138a7546d.bindPopup(popup_bc660965da534657b6b2707275fc50e3)
+            ;
+
+            
+        
+    
+            var circle_marker_1bbdf8f113234221b809daa013b6cfc5 = L.circleMarker(
+                [41.43413, 2.170031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_af0abc780a9b4d8d89c5e489e6dbef94 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d0849dc063a4952951b0926bca35147 = $(`<div id="html_1d0849dc063a4952951b0926bca35147" style="width: 100.0%; height: 100.0%;">El Turo De La Peira Cluster 2</div>`)[0];
+                popup_af0abc780a9b4d8d89c5e489e6dbef94.setContent(html_1d0849dc063a4952951b0926bca35147);
+            
+
+            circle_marker_1bbdf8f113234221b809daa013b6cfc5.bindPopup(popup_af0abc780a9b4d8d89c5e489e6dbef94)
+            ;
+
+            
+        
+    
+            var circle_marker_2c3efaf4880c4722ba92bade56480fdf = L.circleMarker(
+                [41.43669, 2.167548],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_5b4ef41231034e33816bcd77d8b7b371 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ca1421125fdd460aa56978c9193bd76c = $(`<div id="html_ca1421125fdd460aa56978c9193bd76c" style="width: 100.0%; height: 100.0%;">Can Peguera Cluster 2</div>`)[0];
+                popup_5b4ef41231034e33816bcd77d8b7b371.setContent(html_ca1421125fdd460aa56978c9193bd76c);
+            
+
+            circle_marker_2c3efaf4880c4722ba92bade56480fdf.bindPopup(popup_5b4ef41231034e33816bcd77d8b7b371)
+            ;
+
+            
+        
+    
+            var circle_marker_958ccd689aa84d8ab34630c56db69077 = L.circleMarker(
+                [41.44065, 2.170013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_6ee16a39a6564a45bee3a65d172985c8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea556206fbf645cf9cccca913b10c7a9 = $(`<div id="html_ea556206fbf645cf9cccca913b10c7a9" style="width: 100.0%; height: 100.0%;">La Guineueta Cluster 2</div>`)[0];
+                popup_6ee16a39a6564a45bee3a65d172985c8.setContent(html_ea556206fbf645cf9cccca913b10c7a9);
+            
+
+            circle_marker_958ccd689aa84d8ab34630c56db69077.bindPopup(popup_6ee16a39a6564a45bee3a65d172985c8)
+            ;
+
+            
+        
+    
+            var circle_marker_e5a99427e32e4831a0e5dd619bbf20f5 = L.circleMarker(
+                [41.4469, 2.16454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_386876255b9744938e6b176122132221 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9232cbf7f454436d93e3ff19fa1134ff = $(`<div id="html_9232cbf7f454436d93e3ff19fa1134ff" style="width: 100.0%; height: 100.0%;">Canyelles Cluster 2</div>`)[0];
+                popup_386876255b9744938e6b176122132221.setContent(html_9232cbf7f454436d93e3ff19fa1134ff);
+            
+
+            circle_marker_e5a99427e32e4831a0e5dd619bbf20f5.bindPopup(popup_386876255b9744938e6b176122132221)
+            ;
+
+            
+        
+    
+            var circle_marker_118be34146454fae9b60466ae040d444 = L.circleMarker(
+                [41.4499, 2.176278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_6bcf762da0e2406786a126ddc8e7a3e2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5b37e4870a5240f8893e28112aadee98 = $(`<div id="html_5b37e4870a5240f8893e28112aadee98" style="width: 100.0%; height: 100.0%;">Les Roquetes Cluster 2</div>`)[0];
+                popup_6bcf762da0e2406786a126ddc8e7a3e2.setContent(html_5b37e4870a5240f8893e28112aadee98);
+            
+
+            circle_marker_118be34146454fae9b60466ae040d444.bindPopup(popup_6bcf762da0e2406786a126ddc8e7a3e2)
+            ;
+
+            
+        
+    
+            var circle_marker_55a923a0b2e047b2a5f0d0b5d33ed3bf = L.circleMarker(
+                [41.44454, 2.176725],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_bc6b9802921d41eea77cd8a64bd52e8a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b3008bb34d144c0887b187acc702d15a = $(`<div id="html_b3008bb34d144c0887b187acc702d15a" style="width: 100.0%; height: 100.0%;">Verdun Cluster 2</div>`)[0];
+                popup_bc6b9802921d41eea77cd8a64bd52e8a.setContent(html_b3008bb34d144c0887b187acc702d15a);
+            
+
+            circle_marker_55a923a0b2e047b2a5f0d0b5d33ed3bf.bindPopup(popup_bc6b9802921d41eea77cd8a64bd52e8a)
+            ;
+
+            
+        
+    
+            var circle_marker_c8aa987e9d704780b93f00bddcfbdc39 = L.circleMarker(
+                [41.4445, 2.183081],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_e64697fc40044eebaca9fd2ff24f13c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dce22df43daf464bac1654a4e7b7c81b = $(`<div id="html_dce22df43daf464bac1654a4e7b7c81b" style="width: 100.0%; height: 100.0%;">La Prosperitat Cluster 2</div>`)[0];
+                popup_e64697fc40044eebaca9fd2ff24f13c9.setContent(html_dce22df43daf464bac1654a4e7b7c81b);
+            
+
+            circle_marker_c8aa987e9d704780b93f00bddcfbdc39.bindPopup(popup_e64697fc40044eebaca9fd2ff24f13c9)
+            ;
+
+            
+        
+    
+            var circle_marker_470ad82fd9ef46ac8f19add7a7948f8f = L.circleMarker(
+                [41.45232, 2.185892],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_d9db00510dd9426e9057d206739078d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2feef8a8767a477f879c27a4c30f1d59 = $(`<div id="html_2feef8a8767a477f879c27a4c30f1d59" style="width: 100.0%; height: 100.0%;">La Trinitat Nova Cluster 4</div>`)[0];
+                popup_d9db00510dd9426e9057d206739078d7.setContent(html_2feef8a8767a477f879c27a4c30f1d59);
+            
+
+            circle_marker_470ad82fd9ef46ac8f19add7a7948f8f.bindPopup(popup_d9db00510dd9426e9057d206739078d7)
+            ;
+
+            
+        
+    
+            var circle_marker_810dc9003f6a45dea30311bfccbf6018 = L.circleMarker(
+                [41.45671, 2.17526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_bf85d49df2e2481d9c453195a1a334e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_989903310d9944b58769511cc0b54711 = $(`<div id="html_989903310d9944b58769511cc0b54711" style="width: 100.0%; height: 100.0%;">Torre Baro Cluster 4</div>`)[0];
+                popup_bf85d49df2e2481d9c453195a1a334e6.setContent(html_989903310d9944b58769511cc0b54711);
+            
+
+            circle_marker_810dc9003f6a45dea30311bfccbf6018.bindPopup(popup_bf85d49df2e2481d9c453195a1a334e6)
+            ;
+
+            
+        
+    
+            var circle_marker_a478509cdb5c45a8be94065ab0686f61 = L.circleMarker(
+                [41.46301, 2.176021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_dc0399a8833b46a5b5d01f8665582a5a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a3d012ef149842e1938a597b97114290 = $(`<div id="html_a3d012ef149842e1938a597b97114290" style="width: 100.0%; height: 100.0%;">Ciutat Meridiana Cluster 2</div>`)[0];
+                popup_dc0399a8833b46a5b5d01f8665582a5a.setContent(html_a3d012ef149842e1938a597b97114290);
+            
+
+            circle_marker_a478509cdb5c45a8be94065ab0686f61.bindPopup(popup_dc0399a8833b46a5b5d01f8665582a5a)
+            ;
+
+            
+        
+    
+            var circle_marker_41bdf741aab94ea3919c793d4df4e644 = L.circleMarker(
+                [41.46523, 2.18526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_a972435c4cda476caeffde783af5d1ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a23a4812ac694eb7a51377cdc3e3867d = $(`<div id="html_a23a4812ac694eb7a51377cdc3e3867d" style="width: 100.0%; height: 100.0%;">Vallbona Cluster 2</div>`)[0];
+                popup_a972435c4cda476caeffde783af5d1ba.setContent(html_a23a4812ac694eb7a51377cdc3e3867d);
+            
+
+            circle_marker_41bdf741aab94ea3919c793d4df4e644.bindPopup(popup_a972435c4cda476caeffde783af5d1ba)
+            ;
+
+            
+        
+    
+            var circle_marker_e4595ffb4fc647b7be3d7b35acc24269 = L.circleMarker(
+                [41.45347, 2.193972],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_145a0c62298d457e90bb3e48f286a043 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aa8dc5503b4e476fba8e5f09b8940e4d = $(`<div id="html_aa8dc5503b4e476fba8e5f09b8940e4d" style="width: 100.0%; height: 100.0%;">La Trinitat Vella Cluster 2</div>`)[0];
+                popup_145a0c62298d457e90bb3e48f286a043.setContent(html_aa8dc5503b4e476fba8e5f09b8940e4d);
+            
+
+            circle_marker_e4595ffb4fc647b7be3d7b35acc24269.bindPopup(popup_145a0c62298d457e90bb3e48f286a043)
+            ;
+
+            
+        
+    
+            var circle_marker_6798e08707b5436fb86ca104ac035c5e = L.circleMarker(
+                [41.44765, 2.200104],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_c62d768679984e59bda5a0296ee8cc8b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_48e4827d8f0c46dead65f8b15f84ea9a = $(`<div id="html_48e4827d8f0c46dead65f8b15f84ea9a" style="width: 100.0%; height: 100.0%;">Baro De Viver Cluster 0</div>`)[0];
+                popup_c62d768679984e59bda5a0296ee8cc8b.setContent(html_48e4827d8f0c46dead65f8b15f84ea9a);
+            
+
+            circle_marker_6798e08707b5436fb86ca104ac035c5e.bindPopup(popup_c62d768679984e59bda5a0296ee8cc8b)
+            ;
+
+            
+        
+    
+            var circle_marker_aafb0fcdcd044c4c9c0bc6cfa380735c = L.circleMarker(
+                [41.43881, 2.202903],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_d51a197f76514676846e4bc1fe2a61d2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5c3106c5ce2741e79015789ac0dc60d9 = $(`<div id="html_5c3106c5ce2741e79015789ac0dc60d9" style="width: 100.0%; height: 100.0%;">El Bon Pastor Cluster 1</div>`)[0];
+                popup_d51a197f76514676846e4bc1fe2a61d2.setContent(html_5c3106c5ce2741e79015789ac0dc60d9);
+            
+
+            circle_marker_aafb0fcdcd044c4c9c0bc6cfa380735c.bindPopup(popup_d51a197f76514676846e4bc1fe2a61d2)
+            ;
+
+            
+        
+    
+            var circle_marker_3eadb6e4543d49f9ba102cbcb4970385 = L.circleMarker(
+                [41.43874, 2.191302],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_1c59ea218da94dc8b46ce6e656ae126c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c91ce61c0f949deb0f1a2b465c908ed = $(`<div id="html_9c91ce61c0f949deb0f1a2b465c908ed" style="width: 100.0%; height: 100.0%;">Sant Andreu Cluster 1</div>`)[0];
+                popup_1c59ea218da94dc8b46ce6e656ae126c.setContent(html_9c91ce61c0f949deb0f1a2b465c908ed);
+            
+
+            circle_marker_3eadb6e4543d49f9ba102cbcb4970385.bindPopup(popup_1c59ea218da94dc8b46ce6e656ae126c)
+            ;
+
+            
+        
+    
+            var circle_marker_215b227e10a94c9a9c12558c46b7e5fa = L.circleMarker(
+                [41.42517, 2.191308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_4f05f8a201434c98b0409d53b919feab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_82d71a6ab6224942a3531c49ea9d2152 = $(`<div id="html_82d71a6ab6224942a3531c49ea9d2152" style="width: 100.0%; height: 100.0%;">La Sagrera Cluster 2</div>`)[0];
+                popup_4f05f8a201434c98b0409d53b919feab.setContent(html_82d71a6ab6224942a3531c49ea9d2152);
+            
+
+            circle_marker_215b227e10a94c9a9c12558c46b7e5fa.bindPopup(popup_4f05f8a201434c98b0409d53b919feab)
+            ;
+
+            
+        
+    
+            var circle_marker_4332c1647f25456f8c2a530a4fbbee9d = L.circleMarker(
+                [41.42642, 2.181946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_5239e32d42974a91a004074d73f74440 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e9e5296ee73420f9e5e461c098d5fdc = $(`<div id="html_5e9e5296ee73420f9e5e461c098d5fdc" style="width: 100.0%; height: 100.0%;">El Congres I Els Indians Cluster 1</div>`)[0];
+                popup_5239e32d42974a91a004074d73f74440.setContent(html_5e9e5296ee73420f9e5e461c098d5fdc);
+            
+
+            circle_marker_4332c1647f25456f8c2a530a4fbbee9d.bindPopup(popup_5239e32d42974a91a004074d73f74440)
+            ;
+
+            
+        
+    
+            var circle_marker_fb9753a63e974908a82c52330dbfa256 = L.circleMarker(
+                [41.41984, 2.18705],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_c7c1d8d2608743bfb4d035fc91aa7d64 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e98d1d69d93e466cbac5b1f1164ae622 = $(`<div id="html_e98d1d69d93e466cbac5b1f1164ae622" style="width: 100.0%; height: 100.0%;">Navas Cluster 2</div>`)[0];
+                popup_c7c1d8d2608743bfb4d035fc91aa7d64.setContent(html_e98d1d69d93e466cbac5b1f1164ae622);
+            
+
+            circle_marker_fb9753a63e974908a82c52330dbfa256.bindPopup(popup_c7c1d8d2608743bfb4d035fc91aa7d64)
+            ;
+
+            
+        
+    
+            var circle_marker_2df39c3fd894433599a0aae1f25684c2 = L.circleMarker(
+                [41.41385, 2.183554],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_45beabc1395c4be8a9fe6870fc5ecea5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5370bebd69f646ac976ca1a570f4244c = $(`<div id="html_5370bebd69f646ac976ca1a570f4244c" style="width: 100.0%; height: 100.0%;">El Camp De L&#39;Arpa Del Clot Cluster 1</div>`)[0];
+                popup_45beabc1395c4be8a9fe6870fc5ecea5.setContent(html_5370bebd69f646ac976ca1a570f4244c);
+            
+
+            circle_marker_2df39c3fd894433599a0aae1f25684c2.bindPopup(popup_45beabc1395c4be8a9fe6870fc5ecea5)
+            ;
+
+            
+        
+    
+            var circle_marker_a9d8ac7b6e1343cb84d3db4afb34bc5a = L.circleMarker(
+                [41.41164, 2.191118],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_b1e7f9e94dbb40609072ffcdcbdc97e9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_92524ff1bf4344bbb28623b1a4dd2856 = $(`<div id="html_92524ff1bf4344bbb28623b1a4dd2856" style="width: 100.0%; height: 100.0%;">El Clot Cluster 1</div>`)[0];
+                popup_b1e7f9e94dbb40609072ffcdcbdc97e9.setContent(html_92524ff1bf4344bbb28623b1a4dd2856);
+            
+
+            circle_marker_a9d8ac7b6e1343cb84d3db4afb34bc5a.bindPopup(popup_b1e7f9e94dbb40609072ffcdcbdc97e9)
+            ;
+
+            
+        
+    
+            var circle_marker_d95017570fce43dc9b6fa7eabfe529cb = L.circleMarker(
+                [41.40041, 2.191383],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_4fdc7fc6d2aa45e28c1eb8d00a6b56fe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_70ed73c17c5746feb660cd97ba490bf0 = $(`<div id="html_70ed73c17c5746feb660cd97ba490bf0" style="width: 100.0%; height: 100.0%;">El Parc I La Llacuna Del Poblenou Cluster 1</div>`)[0];
+                popup_4fdc7fc6d2aa45e28c1eb8d00a6b56fe.setContent(html_70ed73c17c5746feb660cd97ba490bf0);
+            
+
+            circle_marker_d95017570fce43dc9b6fa7eabfe529cb.bindPopup(popup_4fdc7fc6d2aa45e28c1eb8d00a6b56fe)
+            ;
+
+            
+        
+    
+            var circle_marker_651541658bf34c4d9848d1e411d7203c = L.circleMarker(
+                [41.39255, 2.19788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_011526fc60d343959a662f648d7fc62b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e42d1b47ffab4d33931cd5d167d8464e = $(`<div id="html_e42d1b47ffab4d33931cd5d167d8464e" style="width: 100.0%; height: 100.0%;">La Vila Olimpica Del Poblenou Cluster 1</div>`)[0];
+                popup_011526fc60d343959a662f648d7fc62b.setContent(html_e42d1b47ffab4d33931cd5d167d8464e);
+            
+
+            circle_marker_651541658bf34c4d9848d1e411d7203c.bindPopup(popup_011526fc60d343959a662f648d7fc62b)
+            ;
+
+            
+        
+    
+            var circle_marker_bea025116d8542cdb79d28da58bc355a = L.circleMarker(
+                [41.4018, 2.203505],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_fbd58cb4a036417582b257f6bafc3fe5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e3dd0619272c4eb9bd94bb591e5198c2 = $(`<div id="html_e3dd0619272c4eb9bd94bb591e5198c2" style="width: 100.0%; height: 100.0%;">El Poblenou Cluster 1</div>`)[0];
+                popup_fbd58cb4a036417582b257f6bafc3fe5.setContent(html_e3dd0619272c4eb9bd94bb591e5198c2);
+            
+
+            circle_marker_bea025116d8542cdb79d28da58bc355a.bindPopup(popup_fbd58cb4a036417582b257f6bafc3fe5)
+            ;
+
+            
+        
+    
+            var circle_marker_b036c9a3d36142818a2046064aef4a70 = L.circleMarker(
+                [41.40708, 2.214174],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_7f3f89c6d01a404181077cf837acb023 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c33d87dd1881429bb4c09eb4d204666c = $(`<div id="html_c33d87dd1881429bb4c09eb4d204666c" style="width: 100.0%; height: 100.0%;">Diagonal Mar I El Front Maritim Del Poblenou Cluster 1</div>`)[0];
+                popup_7f3f89c6d01a404181077cf837acb023.setContent(html_c33d87dd1881429bb4c09eb4d204666c);
+            
+
+            circle_marker_b036c9a3d36142818a2046064aef4a70.bindPopup(popup_7f3f89c6d01a404181077cf837acb023)
+            ;
+
+            
+        
+    
+            var circle_marker_49188a51150f4845beb692d433373854 = L.circleMarker(
+                [41.41491, 2.218447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_9b05638955ce4fab96c9c1355be45438 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_086c644e6558485b983a3c07fa452e88 = $(`<div id="html_086c644e6558485b983a3c07fa452e88" style="width: 100.0%; height: 100.0%;">El Besos I El Maresme Cluster 1</div>`)[0];
+                popup_9b05638955ce4fab96c9c1355be45438.setContent(html_086c644e6558485b983a3c07fa452e88);
+            
+
+            circle_marker_49188a51150f4845beb692d433373854.bindPopup(popup_9b05638955ce4fab96c9c1355be45438)
+            ;
+
+            
+        
+    
+            var circle_marker_ed42493627ef4a8d8424c9d1eae4db98 = L.circleMarker(
+                [41.4129, 2.203686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_5b03911c57d34621b4624fea1017b05b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2a17ce2dd3e4783b69d2e8638be63a0 = $(`<div id="html_a2a17ce2dd3e4783b69d2e8638be63a0" style="width: 100.0%; height: 100.0%;">Provencals Del Poblenou Cluster 1</div>`)[0];
+                popup_5b03911c57d34621b4624fea1017b05b.setContent(html_a2a17ce2dd3e4783b69d2e8638be63a0);
+            
+
+            circle_marker_ed42493627ef4a8d8424c9d1eae4db98.bindPopup(popup_5b03911c57d34621b4624fea1017b05b)
+            ;
+
+            
+        
+    
+            var circle_marker_43823898c9da47d0ba25247866aefd42 = L.circleMarker(
+                [41.4187, 2.199025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_2c7bda15fe934147a76f949952d64713 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b351803fb952410d874023e734411a7c = $(`<div id="html_b351803fb952410d874023e734411a7c" style="width: 100.0%; height: 100.0%;">Sant Marti De Provencals Cluster 2</div>`)[0];
+                popup_2c7bda15fe934147a76f949952d64713.setContent(html_b351803fb952410d874023e734411a7c);
+            
+
+            circle_marker_43823898c9da47d0ba25247866aefd42.bindPopup(popup_2c7bda15fe934147a76f949952d64713)
+            ;
+
+            
+        
+    
+            var circle_marker_cd7db20c818b4291bc443d4d23d52952 = L.circleMarker(
+                [41.4258, 2.204125],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9658b772c19d4beb9040a3e8428ef0a5);
+            
+    
+            var popup_2843b9c00eb24ff19f072a512431ffc8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7ec5bfd5ef054d09a92a911b2a31ad08 = $(`<div id="html_7ec5bfd5ef054d09a92a911b2a31ad08" style="width: 100.0%; height: 100.0%;">La Verneda I La Pau Cluster 1</div>`)[0];
+                popup_2843b9c00eb24ff19f072a512431ffc8.setContent(html_7ec5bfd5ef054d09a92a911b2a31ad08);
+            
+
+            circle_marker_cd7db20c818b4291bc443d4d23d52952.bindPopup(popup_2843b9c00eb24ff19f072a512431ffc8)
+            ;
+
+            
+        
+</script>
